@@ -8,7 +8,7 @@ import AuthSocialButton from "./AuthSocialButton"
 import { BsGithub, BsGoogle } from 'react-icons/bs'
 
 import axios from "axios"
-import ToasterContext from "@/app/context/ToasterContext"
+// import ToasterContext from "@/app/context/ToasterContext"
 import { toast } from "react-hot-toast"
 import { signIn, useSession } from "next-auth/react"
 import { useRouter } from "next/navigation"
@@ -24,7 +24,7 @@ const AuthForm = () => {
     const session = useSession()
 
     useEffect(() => {
-        if(session?.status === 'authenticated'){ console.log('Authenticated') }
+        // if(session?.status === 'authenticated'){ console.log('Authenticated') }
         
     }, [session?.status],)
 

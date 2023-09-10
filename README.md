@@ -2,7 +2,7 @@
 # Real Time Chat Application
   This application built using Next.js, React.js, Pusher, Mongoose, Prisma, tailwind and RESTful Web Service.
   
-  ![s2](https://user-images.githubusercontent.com/17202632/26983616-1892f3c2-4d45-11e7-8027-0fb74814f770.PNG)
+  ![s2](https://github.com/ChetanPatil659/ChatBook/blob/main/public/localhost_3000_conversations_64fd49373eb0b66547c15820.png?raw=true)
 
 # Features
   <li>Uses Next as the application Framework.</li> 

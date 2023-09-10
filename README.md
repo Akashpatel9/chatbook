@@ -3,6 +3,8 @@
   This application built using Next.js, React.js, Pusher, Mongoose, Prisma, tailwind and RESTful Web Service.
   
   ![s2](https://github.com/ChetanPatil659/ChatBook/blob/main/public/localhost_3000_conversations_64fd49373eb0b66547c15820.png?raw=true)
+  
+  ![s2](https://github.com/ChetanPatil659/ChatBook/blob/main/public/git%20cover.png)
 
 # Features
   <li>Uses Next as the application Framework.</li> 

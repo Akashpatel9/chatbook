@@ -1,5 +1,5 @@
 {
-  "name": "chat-box",
+  "name": "chat-book",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -46,5 +46,29 @@
     "@types/bcrypt": "^5.0.0",
     "@types/lodash": "^4.14.198",
     "prisma": "^5.2.0"
-  }
+  },
+  "description": "This application built using Next.js, React.js, Pusher, Mongoose, Prisma, tailwind and RESTful Web Service.",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChetanPatil659/ChatBook.git"
+  },
+  "keywords": [
+    "chatroom",
+    "chat",
+    "application",
+    "project",
+    "chat",
+    "chat",
+    "app",
+    "realtime",
+    "chat",
+    "app"
+  ],
+  "author": "Chetan Patil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChetanPatil659/ChatBook/issues"
+  },
+  "homepage": "https://github.com/ChetanPatil659/ChatBook#readme"
 }

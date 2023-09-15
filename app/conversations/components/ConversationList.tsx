@@ -89,6 +89,7 @@ const ConversationList: React.FC<ConversationListProps> = ({
         overflow-y-auto 
         border-r 
         border-gray-200 
+        bg-gradient-to-b from-indigo-100 via-purple-100 to-pink-100/10
       `, isOpen ? 'hidden' : 'block w-full left-0')}>
         <div className="px-5">
           <div className="flex justify-between mb-4 pt-4">
@@ -110,6 +111,7 @@ const ConversationList: React.FC<ConversationListProps> = ({
               <MdOutlineGroupAdd size={20} />
             </div>
           </div>
+          <div className="flex flex-col gap-1">
           {items.map((item) => (
             <ConversationBox
               key={item.id}
@@ -117,6 +119,7 @@ const ConversationList: React.FC<ConversationListProps> = ({
               selected={conversationId === item.id}
             />
           ))}
+          </div>
         </div>
       </aside>
     </>

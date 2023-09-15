@@ -17,6 +17,7 @@ const UserList: React.FC<UserListProps> = ({
              lg:pb-0 lg:left-20 lg:w-80
              lg:block overflow-y-auto
              border-r border-gray-200
+             bg-gradient-to-b from-indigo-100 via-purple-100 to-pink-100
              block w-full left-0
             "
         >
@@ -26,12 +27,14 @@ const UserList: React.FC<UserListProps> = ({
                         People
                     </div>
                 </div>
+                <div className="flex flex-col gap-1">
                 {items.map((item)=>(
                     <UserBox 
                         key={item.id}
                         data={item}
                     />
                 ))}
+                </div>
             </div>
         </aside>
     )

@@ -51,7 +51,7 @@
   "main": "next.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChetanPatil659/ChatBook.git"
+    "url": "git+https://github.com/Akashpatel9/chatbook"
   },
   "keywords": [
     "chatroom",
@@ -65,10 +65,10 @@
     "chat",
     "app"
   ],
-  "author": "Chetan Patil",
+  "author": "Akash singh patel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChetanPatil659/ChatBook/issues"
+    "url": "https://github.com/Akashpatel9/chatbook"
   },
-  "homepage": "https://github.com/ChetanPatil659/ChatBook#readme"
+  "homepage": "https://github.com/Akashpatel9/chatbook"
 }
